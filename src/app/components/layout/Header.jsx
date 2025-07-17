@@ -123,7 +123,6 @@ export function Header() {
               {/* Mobile Menu Toggle */}
               <Button
                 variant="ghost"
-                size="icon"
                 className="lg:hidden hover:bg-gray-100 p-3 rounded-full"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               >

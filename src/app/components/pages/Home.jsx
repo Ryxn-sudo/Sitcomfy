@@ -7,6 +7,7 @@ import { BenefitsSection } from "@/app/components/pageParts/Home/benifits-sectio
 import { NewsletterSection } from "@/app/components/pageParts/Home/newsletter-section"
 import { Footer } from "@/app/components/layout/Footer"
 import { FlexiblePaymentsSection } from "../pageParts/Home/paynment-section"
+import { CoreValuesSection } from "../pageParts/Home/corevalues"
 
 
 export default function HomePage() {
@@ -17,7 +18,7 @@ export default function HomePage() {
       <HeroSlider />
       <CategoriesSection/>
       <FeaturedProducts />
-      <BenefitsSection />
+      <CoreValuesSection />
       <NewsletterSection />
       <FlexiblePaymentsSection />
       <Footer />
