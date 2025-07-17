@@ -8,6 +8,7 @@ import { NewsletterSection } from "@/app/components/pageParts/Home/newsletter-se
 import { Footer } from "@/app/components/layout/Footer"
 import { FlexiblePaymentsSection } from "../pageParts/Home/paynment-section"
 import { CoreValuesSection } from "../pageParts/Home/corevalues"
+import { FaqChatbot } from "../pageParts/Home/faq-chatbot"
 
 
 export default function HomePage() {
@@ -22,6 +23,7 @@ export default function HomePage() {
       <NewsletterSection />
       <FlexiblePaymentsSection />
       <Footer />
+      <FaqChatbot />
     </div>
   )
 }
